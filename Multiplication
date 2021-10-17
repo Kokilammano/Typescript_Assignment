@@ -1,0 +1,9 @@
+export{}
+let num:number=10;
+console.log("MULTIPLICATION TABLE :")
+multiply();
+function multiply():void{
+    for(let i:number=1;i<=10;i++){
+        console.log(num +" * " +i +" = " +(num*i));
+    }
+}
