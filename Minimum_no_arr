@@ -1,0 +1,8 @@
+export{}
+let array:number[]=[10,20,5,90,40];
+console.log("MINIMUM OF NUMBER IN ARRAY :")
+minArray();
+function minArray():void{
+    let result:number=Math.min(...array);
+    console.log(result);
+}
