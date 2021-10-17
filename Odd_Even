@@ -1,0 +1,11 @@
+export{}
+let num:number=12;
+console.log("ODD OR EVEN NUMBER :")
+oddOrEven(num);
+function oddOrEven(num):void{
+    if(num%2==0){
+        console.log(num +" is even number...")
+    }else{
+        console.log(num +" is odd number...")
+    }
+}
