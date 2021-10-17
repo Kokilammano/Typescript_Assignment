@@ -1,0 +1,10 @@
+export{}
+let a:number=20;
+let b:number=100;
+let c:number=40;
+console.log("MAXIMUM OF NUMBER :")
+findMax();
+function findMax():void{
+    let max:number=Math.max(a,b,c);
+    console.log(max);
+}
