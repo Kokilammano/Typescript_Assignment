@@ -1,0 +1,18 @@
+export{}
+let studentId:number=100;
+let studentName:string="Abi";
+let isVaccinated:boolean=true;
+let contactNo:any=9876543210;
+let address:object={
+    doorNo:"90",
+    street:"7th street",
+    city:"Coimbatore",
+    state:"TamilNadu",
+    country:"India"
+}
+console.log("DATATYPES : ")
+console.log("Student id : " +studentId);
+console.log("Student name : " +studentName);
+console.log("Vaccinated? : " +isVaccinated);
+console.log("Contact number : " +contactNo);
+console.log("Address : " +JSON.stringify(address));
