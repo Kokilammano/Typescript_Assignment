@@ -1,0 +1,8 @@
+export{}
+let array:number[]=[10,20,500,90,40];
+console.log("MAXIMUM OF NUMBER IN ARRAY :")
+maxArray();
+function maxArray():void{
+    let result:number=Math.max(...array);
+    console.log(result);
+}
